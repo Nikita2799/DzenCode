@@ -14,6 +14,24 @@ npm run build
 npm run start:prod
 ```
 
+# Project detalis
+
+```
+Project have two server Express and WebSocket
+
+Express have one route
+url: "http://localhost:8030/api/comment"
+method: POST
+data: {
+  "text": "comment text",
+  "username" "name" | null,
+  "email" "email" | null,
+}
+
+WS have one channel
+"new-comment"
+```
+
 # ENV
 
 ```
