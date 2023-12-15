@@ -1,7 +1,6 @@
 import * as http from "http";
 import WebSocketService from "../Services/WebSocketService";
 import ExpressService from "../Services/ExpressService";
-import config from "../../config/config";
 
 class ServerService {
   private server: http.Server;

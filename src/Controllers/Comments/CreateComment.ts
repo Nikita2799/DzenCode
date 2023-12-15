@@ -1,6 +1,5 @@
 import { Response } from "express";
 import CommentWorker from "../../Database/DatabaseWorkers/CommentWorker";
-
 import { ExpressRequest } from "../../Types/express";
 import { serverService } from "../../server";
 
@@ -12,7 +11,6 @@ export async function CreateComment(
 ): Promise<void> {
   try {
     const body = req.body;
-    console.log();
 
     const comment_params = {
       user_id: req.user!.id,

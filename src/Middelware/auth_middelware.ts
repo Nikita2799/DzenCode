@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from "express";
+import { Response, NextFunction } from "express";
 import TokenService from "../Services/TokenService";
 import UserWorker from "../Database/DatabaseWorkers/UserWorker";
 import { ExpressRequest } from "../Types/express";

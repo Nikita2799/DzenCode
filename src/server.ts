@@ -1,4 +1,3 @@
-// src/app.ts
 import config from "../config/config";
 import ServerService from "./Services/ServerService";
 
